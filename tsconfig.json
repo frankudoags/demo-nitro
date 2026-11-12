@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "cpp-math": ["./modules/cpp-math/src/index.ts"],
+      "sk-math": ["./modules/sk-math/src/index.ts"]
+    }
+  }
+}
